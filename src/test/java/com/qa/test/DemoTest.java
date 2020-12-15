@@ -45,7 +45,7 @@ public class DemoTest {
 	{
 		WebDriver driver;
 		System.out.println("launching chrome browser");
-		System.setProperty("webdriver.chrome.driver","D:\\Softwares\\Eclipse\\Eclipse Projects\\MyMavenDemo\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.navigate().to("http://google.com");
 		driver.manage().window().maximize();
